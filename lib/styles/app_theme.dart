@@ -4,7 +4,7 @@ import 'app_colors.dart';
 
 class AppTheme {
   static final ThemeData appTheme = ThemeData(
-    fontFamily: 'Fibonacci',
+    fontFamily: 'Lato',
     scaffoldBackgroundColor: appColors.appWhite,
     appBarTheme: AppBarTheme(
       surfaceTintColor: appColors.appWhite,
@@ -42,10 +42,10 @@ class AppTheme {
     ),
     inputDecorationTheme: InputDecorationTheme(
       hintStyle: TextStyle(
-        color: appColors.appGray,
+        color: appColors.appGrey,
       ),
       labelStyle: TextStyle(
-        color: appColors.appGray,
+        color: appColors.appGrey,
       ),
       floatingLabelStyle: TextStyle(
         color: appColors.appBlack,
@@ -53,7 +53,7 @@ class AppTheme {
       enabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(8),
         borderSide: BorderSide(
-          color: appColors.appGray,
+          color: appColors.appGrey,
         ),
       ),
       border: OutlineInputBorder(
@@ -71,13 +71,13 @@ class AppTheme {
       focusedErrorBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(8),
         borderSide: BorderSide(
-          color: appColors.textButtonRed,
+          color: appColors.secondary,
         ),
       ),
       errorBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(8),
         borderSide: BorderSide(
-          color: appColors.textButtonRed,
+          color: appColors.secondary,
         ),
       ),
     ),
