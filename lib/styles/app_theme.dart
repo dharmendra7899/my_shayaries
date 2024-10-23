@@ -7,6 +7,7 @@ class AppTheme {
     fontFamily: 'Lato',
     scaffoldBackgroundColor: appColors.appWhite,
     appBarTheme: AppBarTheme(
+      elevation: 4,
       surfaceTintColor: appColors.appWhite,
       color: appColors.appWhite,
     ),
