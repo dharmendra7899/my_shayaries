@@ -12,7 +12,7 @@ class _SplashPageState extends State<SplashPage> {
   _navigation() async {
     Future.delayed(const Duration(seconds: 3), () {
       if (mounted) {
-        Navigator.pushReplacementNamed(context, AppRoutes.homePageRoute);
+        Navigator.pushReplacementNamed(context, AppRoutes.dashboardPageRoute);
       }
     });
   }
